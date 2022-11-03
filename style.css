@@ -790,7 +790,7 @@ ul{
 
 }
 /* xtra small screens */
-@media screen and (max-width: 390px){
+@media screen and (max-width: 450px){
     .section-1{
         position: relative;
         background-image: url(images/bg-hero-mobile.svg);
@@ -1082,6 +1082,9 @@ ul{
     flex-direction: column;
     gap: 25px;
 }
+.section-3 .container-two .ul-01 li, .section-3 .container-two .ul-02 li{
+    width: 100%;
+}
 .section-3 .container-two .ul-03{
     width: 48%;
     display: flex;
@@ -1131,7 +1134,7 @@ ul{
      .section-3 .container-four{
         position: relative;
         width: 85%;
-        top: -1000px;
+        top: -980px;
         left: 7.5%;
         right: 7.5%;
         background-color: white;
