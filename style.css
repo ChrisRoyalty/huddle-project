@@ -734,9 +734,9 @@ ul{
 
 
 .section-3 .container-four{
-    position: absolute;
+    position: relative;
     width: 85%;
-    top: 860%;
+    top: -940px;
     left: 7.5%;
     right: 7.5%;
     background-color: white;
@@ -789,25 +789,6 @@ ul{
     
 
 }
-
-@media screen and (max-width: 375px) and (max-height: 667px){
-    .section-3 .container-four{
-        position: absolute;
-        width: 85%;
-        margin-top:135%;
-        left: 7.5%;
-        right: 7.5%;
-        background-color: white;
-        box-shadow: 1px 1px 5px 1px lightgray;
-        box-sizing: border-box;
-        text-align: center;
-        padding: 30px;
-        border-radius: 10px;
-    }
-    
-
-}
-
 /* xtra small screens */
 @media screen and (max-width: 390px){
     .section-1{
@@ -949,19 +930,7 @@ ul{
     width: 75%;
     float: none;
 }
-.section-3 .container-four{
-    position: absolute;
-    width: 85%;
-    top: 282%;
-    left: 7.5%;
-    right: 7.5%;
-    background-color: white;
-    box-shadow: 1px 1px 5px 1px lightgray;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-}
+
 
 .section-2 .container-02{
         display: block;
@@ -1122,9 +1091,9 @@ ul{
 }
 
     .section-3 .container-four{
-        position: absolute;
+        position: relative;
         width: 85%;
-        top: 282%;
+        top: -1000px;
         left: 7.5%;
         right: 7.5%;
         background-color: white;
@@ -1156,5 +1125,30 @@ ul{
         box-sizing: border-box;
         box-shadow: 1px 2px 1px 1px rgba(173, 216, 230, 0.326);
     }
+
+}
+@media screen and (max-width: 390px) and (max-height:667px){
+     .section-3 .container-four{
+        position: relative;
+        width: 85%;
+        top: -1000px;
+        left: 7.5%;
+        right: 7.5%;
+        background-color: white;
+        box-shadow: 1px 1px 5px 1px lightgray;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 820px){
+   .section-3{
+    background-color: #19394B;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
 
 }
